@@ -1,0 +1,15 @@
+{
+    "name": "sunday/custom-field",
+    "autoload": {
+        "psr-4": {"Sunday\\CustomField\\":""},
+        "files": ["registration.php"]
+    },
+    "description": "Magento 2 Custom Checkout Field",
+    "type": "magento2-module",
+    "version": "1.0.0",
+    "support": {
+        "email": "mealyus@gmail.com",
+        "wiki": "https://github.com/mealyus/ddev-project-m2/",
+        "author": "Ali Usman"
+    }
+}

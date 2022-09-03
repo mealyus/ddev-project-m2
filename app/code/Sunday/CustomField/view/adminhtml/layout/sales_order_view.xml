@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<!--
+/**
+* Sunday - Checkout Custom Field
+*
+* @category Sunday
+* @package  Sunday/CustomField
+* @author   Ali Us. <mealyus@gmail.com>
+* @license  http://opensource.org/licenses/osl-3.0.php Open Software License (OSL 3.0)
+* @link     https://github.com/mealyus/
+*/
+ -->
+<page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
+    <body>
+
+        <referenceContainer name="content">
+            <referenceContainer name="order_additional_info">
+                <block class="Sunday\CustomField\Block\Adminhtml\Attributes"
+                       name="customfield_order_attributes"
+                       template="Sunday_CustomField::attributes.phtml" />
+            </referenceContainer>
+        </referenceContainer>
+
+    </body>
+</page>
